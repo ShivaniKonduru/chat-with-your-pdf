@@ -1,0 +1,157 @@
+
+/* ============================================================
+   GEMINI RAG — PREMIUM AI INTERFACE
+   Midnight + Violet + Cyan + Pink
+============================================================ */
+
+
+/* ============================================================
+   IMPORT FONTS
+============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+
+/* ============================================================
+   COLOR SYSTEM
+============================================================ */
+
+:root {
+    --bg-main: #070B18;
+    --bg-secondary: #0B1022;
+    --surface: #10172A;
+    --surface-light: #151D35;
+
+    --border: #273354;
+    --border-light: #344268;
+
+    --text-main: #F8FAFC;
+    --text-secondary: #B7C2D9;
+    --text-muted: #7F8CA8;
+
+    --violet: #8B5CF6;
+    --violet-light: #A78BFA;
+
+    --cyan: #22D3EE;
+    --cyan-light: #67E8F9;
+
+    --pink: #EC4899;
+    --pink-light: #F472B6;
+
+    --blue: #3B82F6;
+}
+
+
+/* ============================================================
+   MAIN APPLICATION
+============================================================ */
+
+.stApp {
+    background:
+        radial-gradient(
+            circle at 10% 0%,
+            rgba(139, 92, 246, 0.15),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 90% 10%,
+            rgba(34, 211, 238, 0.10),
+            transparent 28%
+        ),
+        linear-gradient(
+            135deg,
+            #070B18 0%,
+            #0A1022 50%,
+            #070B18 100%
+        );
+
+    color: var(--text-main);
+
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* ============================================================
+   MAIN CONTENT
+============================================================ */
+
+.block-container {
+    max-width: 1050px;
+
+    padding-top: 3.5rem;
+    padding-bottom: 4rem;
+}
+
+
+/* ============================================================
+   TITLE
+============================================================ */
+
+h1 {
+    font-family: 'Space Grotesk', sans-serif !important;
+
+    font-size: 3.2rem !important;
+    font-weight: 700 !important;
+
+    letter-spacing: -1.5px;
+
+    line-height: 1.15;
+
+    margin-bottom: 0.5rem !important;
+
+    background:
+        linear-gradient(
+            90deg,
+            #A78BFA 0%,
+            #22D3EE 45%,
+            #F472B6 90%
+        );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    background-clip: text;
+}
+
+
+/* ============================================================
+   HEADINGS
+============================================================ */
+
+h2 {
+    font-family: 'Space Grotesk', sans-serif !important;
+
+    color: #F8FAFC !important;
+
+    font-size: 1.65rem !important;
+
+    font-weight: 700 !important;
+}
+
+
+h3 {
+    font-family: 'Space Grotesk', sans-serif !important;
+
+    color: #E2E8F0 !important;
+
+    font-weight: 600 !important;
+}
+
+
+/* ============================================================
+   DESCRIPTION TEXT
+============================================================ */
+
+.stMarkdown p {
+    color: var(--text-secondary);
+
+    font-size: 15px;
+
+    line-height: 1.7;
+}
+
+
+/* ============================================================
+   FILE UPLOADER
+====================
+
